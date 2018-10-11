@@ -55,8 +55,7 @@ public class Main {
         auto1.cilindrada=1000;
         Automovel auto2=new Automovel("Mercedes", "Benz","AA-20-EY",1500);
 
-        //System.out.println(auto1);
-        //System.out.println(auto2);
+
 
         ArrayList<Automovel> automoveisList=new ArrayList<>();
        /* automoveisList.add(auto1);
