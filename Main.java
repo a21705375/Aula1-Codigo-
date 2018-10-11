@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.HashMap;
 
+//Criação da classe automóvel
 class Automovel{
     String marca;
     String modelo;
@@ -33,6 +34,7 @@ public class Main {
     public static HashMap<String,Integer> getMap(Automovel automoveis[]){
         HashMap<String,Integer> map=new HashMap<>();
         int count=0;
+
         for (int i=0;i<automoveis.length;i++){
             if (!map.containsKey(automoveis[i].marca)){
                 map.put(automoveis[i].marca,1);
@@ -83,6 +85,8 @@ public class Main {
         lista.add(auto4);
         lista.add(auto5);
         lista.add(auto6);
+
+        short a=0;
 
         for (Automovel a1:lista){
             System.out.println(a1);
